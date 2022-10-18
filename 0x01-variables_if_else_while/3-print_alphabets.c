@@ -1,19 +1,27 @@
 #include <stdio.h>
 /**
  * main - Entry
- * Return: : 0
+ * Return: 0
  */
-
 int main(void)
 {
 	char c;
+	
+	char d;
 
 	c = 'a';
-	while 
+	d = 'A';
+	while
 		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
-	putchar('\n');
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++;
+		}
 	return (0);
 }
+
+
