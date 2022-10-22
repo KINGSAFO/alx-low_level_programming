@@ -19,8 +19,7 @@ void print_diagonal(int n)
 			putchar(92);
 			putchar('\n');
 		}
-
-		_putchar('\\');
+		
 		_putchar('\n');
 	}
 }
