@@ -5,7 +5,7 @@
  * @s:  the string to be converted
  * Return: The integer value of the converted string
  */
-int_atoi(char *s)
+int _atoi(char *s)
 {
 	int n = 1;
 	int a = 0;
@@ -18,7 +18,7 @@ int_atoi(char *s)
 			a = (a * 10) + (*s - '0');
 
 		else if (a > 0)
-			break;
+			
 	} while (*s++);
 	
 	return (a * n);
